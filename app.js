@@ -53,15 +53,15 @@ $(function() {
   }
 
   function editListItem() {
-    var $editBox = $("<input type='text' id='editBox' placeholder='make changes?'><button id='confirm'>c</button>")
-    var $listText = $(this).parent().html($ editbox)
+    var $editBox  = $("<input type='text' id='editBox' placeholder='make changes?'><button id='confirm'>c</button>")
+    var $listText = $(this).parent().html($editbox)
 
 
   }
 
   function confirmT() {
 
-    var edit = $('#editBox').val();
+    var edit = $('#editbox').val();
     console.log(edit);
 
   }
